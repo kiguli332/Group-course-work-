@@ -1,0 +1,57 @@
+/* styles.css - First Bank Uganda Application Styles */
+
+.root {
+    -fx-font-family: "Segoe UI", "System", sans-serif;
+}
+
+.titled-pane {
+    -fx-text-fill: #1a5276;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #d5dbdb;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15;
+}
+
+.titled-pane > .title > .arrow-button .arrow {
+    -fx-background-color: #1a5276;
+}
+
+.text-field, .combo-box, .password-field {
+    -fx-padding: 8;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+    -fx-background-color: white;
+}
+
+.text-field:focused, .combo-box:focused, .password-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2;
+}
+
+.combo-box .list-cell {
+    -fx-padding: 6 10;
+}
+
+.text-area {
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;
+}
+
+.button:pressed {
+    -fx-opacity: 0.8;
+}
+
+.label {
+    -fx-font-size: 13;
+}
